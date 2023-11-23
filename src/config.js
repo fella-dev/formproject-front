@@ -1,1 +1,1 @@
-export const API_URL = "http://localhost:4000/";
+export const API_URL = "https://registration-2gk9.onrender.com";

@@ -13,7 +13,7 @@ function FormPage() {
       alert("thank you we have received your infos");
     }
     e.target.reset();
-    const res = await fetch(API_URL + "forms", {
+    const res = await fetch(API_URL + "/forms", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(userInfo),
